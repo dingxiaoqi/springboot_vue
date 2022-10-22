@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header></Header>
+    <el-button type="primary">按钮测试</el-button>
     <router-view/>
   </div>
 
