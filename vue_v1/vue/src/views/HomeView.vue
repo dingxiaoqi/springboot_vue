@@ -31,8 +31,8 @@
           label="操作"
           width="200">
         <template slot-scope="scope">
-          <el-button @click="handleClick(scope.row)" type="text" size="small">查看</el-button>
-          <el-button type="text" size="small">编辑</el-button>
+          <el-button @click="handleClick(scope.row)" type="primary" size="small">查看</el-button>
+          <el-button type="primary" size="small">编辑</el-button>
           <el-popover
               placement="top"
               width="160"
@@ -42,7 +42,7 @@
               <el-button size="mini" type="text" @click="visible = false">取消</el-button>
               <el-button type="primary" size="mini" @click="visible = false">确定</el-button>
             </div>
-            <el-button slot="reference" type="text" size="small">删除</el-button>
+            <el-button slot="reference" type="danger" size="small">删除</el-button>
           </el-popover>
         </template>
       </el-table-column>
